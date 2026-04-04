@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- ========== HEADER SECTION ========== -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img id="profile-photo" class="profile-photo" alt="Profile Photo">
+                <div class="header-text">
+                    <h1 id="name" class="name"></h1>
+                    <div class="contact-info">
+                        <a id="phone" class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span></span>
+                        </a>
+                        <a id="email" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span></span>
+                        </a>
+                        <a id="linkedin" class="contact-item" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ========== PROFESSIONAL SUMMARY SECTION ========== -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Professional Summary</h2>
+                <div class="card">
+                    <p id="summary-text" class="summary-text"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SKILLS SECTION ========== -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div id="skills-grid" class="skills-grid"></div>
+            </div>
+        </section>
+
+        <!-- ========== SKILL MODAL ========== -->
+        <div id="skill-modal" class="modal">
+            <div class="modal-content">
+                <button class="modal-close" onclick="closeSkillModal()">&times;</button>
+                <div class="modal-header">
+                    <i class="modal-icon"></i>
+                    <h2 class="modal-title"></h2>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-section">
+                        <h3>Description</h3>
+                        <p class="modal-description"></p>
+                    </div>
+                    <div class="modal-section">
+                        <h3>Experience</h3>
+                        <ul class="modal-experience"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ========== WORK EXPERIENCE SECTION ========== -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Work Experience</h2>
+                <div id="work-timeline" class="timeline"></div>
+            </div>
+        </section>
+
+        <!-- ========== EDUCATION SECTION ========== -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div id="education-timeline" class="timeline"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> <span id="footer-name"></span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
