@@ -3,68 +3,71 @@ const resumeData = {
     personalInfo: {
         photo: 'images/photo.jpg',
         name: 'Natthawan Duangkaew',
-        phone: '087 160 5848',
+        phone: '+66 87 160 5848',
         email: 'natthawan.bdk@gmail.com',
-        linkedin: 'https://linkedin.com/in/yourprofile'
+        linkedin: 'http://linkedin.com/in/ntwdk'
     },
-    summary: 'Data analyst with experience in reviewing and analyzing large sets of user-generated content. Skilled in identifying patterns, detecting potential risks, and supporting decision-making with data. Strong in SQL and Excel, with a focus on accuracy and clear analysis. Interested in applying analytical skills to risk and banking roles for long-term career growth.',
-    
+
+    summary: 'Business and data-oriented analyst with experience in trust and safety operations, focusing on risk assessment and policy-based decision making. Skilled in analyzing behavioral data, identifying risk patterns, and supporting consistent decisions in high-risk cases. Strong in Excel and SQL fundamentals, with the ability to turn data into clear insights. Interested in risk analytics roles in banking where I can apply analytical thinking to support risk evaluation and business decisions.',
+
     skills: {
         sql: {
             title: 'SQL',
             icon: 'fas fa-database',
-            description: 'Used SQL to extract, clean, and analyze large datasets. Able to write queries to identify patterns, trends, and abnormal behavior. Experience supporting reporting and investigation tasks.',
+            description: 'Basic experience in SQL for data extraction and analysis. Able to write queries to support investigation, identify patterns, and work with structured datasets.',
             experience: [
-                { label: 'Years', value: '1+ year' },
-                { label: 'Proficiency', value: 'Intermediate' },
-                { label: 'Tools', value: 'SQL (internal tools, basic query optimization)' }
+                { label: 'Years', value: '1 year' },
+                { label: 'Proficiency', value: 'Basic - Intermediate' },
+                { label: 'Tools', value: 'SQL (learning through Google Data Analytics Certificate)' }
             ]
         },
         excel: {
             title: 'Excel',
             icon: 'fas fa-file-excel',
-            description: 'Strong in data analysis using Excel. Experienced with Pivot Tables, VLOOKUP/XLOOKUP, and data cleaning. Used for reporting, trend analysis, and supporting business decisions.',
+            description: 'Advanced Excel skills for data analysis and reporting. Used to track case trends, summarize findings, and support internal reviews. Strong in data cleaning and structured analysis.',
             experience: [
                 { label: 'Years', value: '2+ years' },
                 { label: 'Proficiency', value: 'Advanced' },
-                { label: 'Specializations', value: 'Pivot Tables, VLOOKUP, XLOOKUP, Data Analysis' }
+                { label: 'Specializations', value: 'Pivot Tables, VLOOKUP/XLOOKUP, Data Cleaning, Reporting' }
             ]
         },
         python: {
             title: 'Python',
             icon: 'fas fa-code',
-            description: 'Basic experience using Python for data analysis and data handling. Familiar with simple scripts for data processing and analysis.',
+            description: 'Basic knowledge of Python for data analysis. Familiar with using pandas for simple data handling and analysis tasks.',
             experience: [
                 { label: 'Years', value: '<1 year' },
                 { label: 'Proficiency', value: 'Beginner' },
-                { label: 'Libraries', value: 'Pandas (basic), NumPy (basic)' }
+                { label: 'Libraries', value: 'Pandas (basic)' }
             ]
         }
     },
 
     workExperience: [
         {
-            title: 'Accenture',
+            title: 'Accenture Solution Co., Ltd.',
             subtitle: 'Content Analyst',
-            dates: '2024 - Present',
-            description: 'Reviewed and analyzed large volumes of user content to ensure policy compliance and identify potential risks.',
+            dates: 'May 2024 - Present',
+            description: 'Worked in trust and safety operations, focusing on analyzing high-risk user cases and supporting consistent policy-based decisions.',
             details: [
-                'Analyzed user-generated content to identify patterns and potential risk behaviors',
-                'Detected abnormal or suspicious cases and escalated when necessary',
-                'Used internal tools, SQL, and Excel to support data analysis and reporting',
-                'Worked with global teams to improve accuracy and consistency in decision-making',
-                'Maintained high attention to detail and handled sensitive cases with accuracy'
+                'Analyzed complex and high-risk user cases using behavioral data and contextual signals',
+                'Identified recurring patterns and risk indicators to support consistent decision-making',
+                'Handled sensitive and edge cases with high attention to detail and accuracy',
+                'Used Excel to track trends, summarize findings, and support internal reviews',
+                'Collaborated with policy, quality, and operations teams to align decision standards',
+                'Summarized insights from daily operations to support process improvement'
             ]
         },
         {
-            title: 'Tenma Paper Mills',
-            subtitle: 'R&D Intern',
-            dates: '2023',
-            description: 'Supported research and data analysis for product and process improvement.',
+            title: 'Tenma Paper Mills Co., Ltd.',
+            subtitle: 'Research and Development',
+            dates: 'Jan 2022 - Jan 2024',
+            description: 'Conducted research and data analysis to support product development and process optimization.',
             details: [
-                'Collected and analyzed experimental data to support research projects',
-                'Assisted in process improvement and testing',
-                'Prepared reports and summarized findings for the team'
+                'Designed and conducted experiments to test material performance',
+                'Analyzed experimental and production data to meet industry standards',
+                'Evaluated cost and performance to support practical recommendations',
+                'Translated technical data into clear insights for process improvement'
             ]
         }
     ],
@@ -72,17 +75,25 @@ const resumeData = {
     education: [
         {
             title: 'Chulalongkorn University',
-            subtitle: "Master's Degree in Industrial Science",
-            dates: '2022 - 2024',
-            description: 'Focused on data analysis, research, and process optimization.',
+            subtitle: "Master of Science in Science for Industry",
+            dates: 'Jan 2022 - Jan 2024',
+            description: 'Focused on data analysis, research, and industrial process understanding.',
             details: [
-                'Hi-Fl Consortium Scholarship recipient',
-                'Relevant coursework: Data Analysis, Statistics, Process Optimization'
+                'Hi-Fl Consortium Scholarship (Full Scholarship)',
+                'Relevant coursework: Industrial Process, Innovation Management, Business Concepts for Scientists'
+            ]
+        },
+        {
+            title: 'Chulalongkorn University',
+            subtitle: "Bachelor of Science in Materials Science",
+            dates: 'Aug 2017 - Jul 2021',
+            description: 'Studied materials properties and industrial applications.',
+            details: [
+                'Relevant coursework: Ceramic Materials, Material Processing, Mechanical Properties'
             ]
         }
     ]
 };
-
 // ========== TOGGLE DROPDOWN DETAILS ==========
 function toggleDetails(button) {
     const header = button;
