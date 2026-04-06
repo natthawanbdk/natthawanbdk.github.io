@@ -3,8 +3,8 @@ const resumeData = {
     personalInfo: {
         photo: 'images/photo.jpg',
         name: 'Natthawan Duangkaew',
-        phone: '+66 XXX XXX XXX',
-        email: 'your.email@example.com',
+        phone: '087 160 5848',
+        email: 'natthawan.bdk@gmail.com',
         linkedin: 'https://linkedin.com/in/yourprofile'
     },
     summary: 'Data analyst with experience in reviewing and analyzing large sets of user-generated content. Skilled in identifying patterns, detecting potential risks, and supporting decision-making with data. Strong in SQL and Excel, with a focus on accuracy and clear analysis. Interested in applying analytical skills to risk and banking roles for long-term career growth.',
