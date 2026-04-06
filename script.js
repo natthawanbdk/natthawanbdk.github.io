@@ -2,67 +2,83 @@
 const resumeData = {
     personalInfo: {
         photo: 'images/photo.jpg',
-        name: 'Your Name',
-        phone: '+1 234 567 890',
+        name: 'Natthawan Duangkaew',
+        phone: '+66 XXX XXX XXX',
         email: 'your.email@example.com',
         linkedin: 'https://linkedin.com/in/yourprofile'
     },
-    summary: 'Write a brief description about yourself, your professional background, key strengths, and career objectives. Highlight what makes you unique and what you bring to potential employers.',
+    summary: 'Data analyst with experience in reviewing and analyzing large sets of user-generated content. Skilled in identifying patterns, detecting potential risks, and supporting decision-making with data. Strong in SQL and Excel, with a focus on accuracy and clear analysis. Interested in applying analytical skills to risk and banking roles for long-term career growth.',
+    
     skills: {
         sql: {
             title: 'SQL',
             icon: 'fas fa-database',
-            description: 'Write a description of your SQL skills, including types of databases you\'ve worked with, query optimization experience, and specific projects where you used SQL.',
+            description: 'Used SQL to extract, clean, and analyze large datasets. Able to write queries to identify patterns, trends, and abnormal behavior. Experience supporting reporting and investigation tasks.',
             experience: [
-                { label: 'Years', value: 'Add years of experience' },
-                { label: 'Proficiency', value: 'Beginner / Intermediate / Advanced / Expert' },
-                { label: 'Tools', value: 'MySQL, PostgreSQL, SQL Server, etc.' }
+                { label: 'Years', value: '1+ year' },
+                { label: 'Proficiency', value: 'Intermediate' },
+                { label: 'Tools', value: 'SQL (internal tools, basic query optimization)' }
             ]
         },
         excel: {
             title: 'Excel',
             icon: 'fas fa-file-excel',
-            description: 'Write a description of your Excel skills, including advanced functions, pivot tables, macros, VBA, data analysis, and visualization capabilities.',
+            description: 'Strong in data analysis using Excel. Experienced with Pivot Tables, VLOOKUP/XLOOKUP, and data cleaning. Used for reporting, trend analysis, and supporting business decisions.',
             experience: [
-                { label: 'Years', value: 'Add years of experience' },
-                { label: 'Proficiency', value: 'Beginner / Intermediate / Advanced / Expert' },
-                { label: 'Specializations', value: 'Pivot Tables, VLOOKUP, Macros, etc.' }
+                { label: 'Years', value: '2+ years' },
+                { label: 'Proficiency', value: 'Advanced' },
+                { label: 'Specializations', value: 'Pivot Tables, VLOOKUP, XLOOKUP, Data Analysis' }
             ]
         },
         python: {
             title: 'Python',
             icon: 'fas fa-code',
-            description: 'Write a description of your Python skills, including libraries/frameworks you\'ve used, types of projects (data analysis, web development, automation, etc.), and specific applications.',
+            description: 'Basic experience using Python for data analysis and data handling. Familiar with simple scripts for data processing and analysis.',
             experience: [
-                { label: 'Years', value: 'Add years of experience' },
-                { label: 'Proficiency', value: 'Beginner / Intermediate / Advanced / Expert' },
-                { label: 'Libraries', value: 'Pandas, NumPy, Flask, Django, etc.' }
+                { label: 'Years', value: '<1 year' },
+                { label: 'Proficiency', value: 'Beginner' },
+                { label: 'Libraries', value: 'Pandas (basic), NumPy (basic)' }
             ]
         }
     },
+
     workExperience: [
         {
-            title: 'Company Name',
-            subtitle: 'Your Role',
-            dates: 'Jan 2020 - Present',
-            description: 'Write a brief description of your responsibilities and achievements. Click to see more details about this position.',
-            details: ['Achievement or responsibility 1', 'Achievement or responsibility 2', 'Achievement or responsibility 3']
+            title: 'Accenture',
+            subtitle: 'Content Analyst',
+            dates: '2024 - Present',
+            description: 'Reviewed and analyzed large volumes of user content to ensure policy compliance and identify potential risks.',
+            details: [
+                'Analyzed user-generated content to identify patterns and potential risk behaviors',
+                'Detected abnormal or suspicious cases and escalated when necessary',
+                'Used internal tools, SQL, and Excel to support data analysis and reporting',
+                'Worked with global teams to improve accuracy and consistency in decision-making',
+                'Maintained high attention to detail and handled sensitive cases with accuracy'
+            ]
         },
         {
-            title: 'Previous Company',
-            subtitle: 'Previous Role',
-            dates: 'Jun 2018 - Dec 2019',
-            description: 'Description of your previous role and responsibilities.',
-            details: ['Achievement or responsibility 1', 'Achievement or responsibility 2']
+            title: 'Tenma Paper Mills',
+            subtitle: 'R&D Intern',
+            dates: '2023',
+            description: 'Supported research and data analysis for product and process improvement.',
+            details: [
+                'Collected and analyzed experimental data to support research projects',
+                'Assisted in process improvement and testing',
+                'Prepared reports and summarized findings for the team'
+            ]
         }
     ],
+
     education: [
         {
-            title: 'University Name',
-            subtitle: "Bachelor's Degree in Field of Study",
-            dates: '2014 - 2018',
-            description: 'Add details about your education, major achievements, relevant coursework, or extracurricular activities.',
-            details: []
+            title: 'Chulalongkorn University',
+            subtitle: "Master's Degree in Industrial Science",
+            dates: '2022 - 2024',
+            description: 'Focused on data analysis, research, and process optimization.',
+            details: [
+                'Hi-Fl Consortium Scholarship recipient',
+                'Relevant coursework: Data Analysis, Statistics, Process Optimization'
+            ]
         }
     ]
 };
