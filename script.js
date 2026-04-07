@@ -2,7 +2,7 @@
 const resumeData = {
     personalInfo: {
         photo: 'https://cdn.phototourl.com/free/2026-04-07-fcf60d49-f112-46b7-b796-94704bbf139e.jpg',
-        name: 'Natthawan D',
+        name: 'Natthawan Duangkaew',
         phone: '+66 87 160 5848',
         email: 'natthawan.bdk@gmail.com',
         linkedin: 'http://linkedin.com/in/ntwdk'
