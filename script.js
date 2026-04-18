@@ -28,7 +28,7 @@ const resumeData = {
             experience: [
                 { label: 'Years', value: '2+ years' },
                 { label: 'Proficiency', value: 'Advanced' },
-                { label: 'Specializations', value: 'Pivot Tables, VLOOKUP/XLOOKUP, Data Cleaning, Reporting' }
+                { label: 'Tools', value: 'Pivot Tables, VLOOKUP/XLOOKUP, Data Cleaning, Reporting' }
             ]
         },
         python: {
